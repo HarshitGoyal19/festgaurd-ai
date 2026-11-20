@@ -17,7 +17,7 @@ st.set_page_config(
 
 # --- TELEGRAM KEYS ---
 BOT_TOKEN = st.secrets["BOT_TOKEN"]
-CHAT_ID = st.secrets["CHAT-ID"]
+CHAT_ID = st.secrets["CHAT_ID"]
 ALERT_COOLDOWN = 25
 
 @st.cache_resource
